@@ -1,4 +1,4 @@
 class Post < Author
   attr_accessor :title, :Author
-  belongs_to :Author 
+  belongs_to: authors  
 end
